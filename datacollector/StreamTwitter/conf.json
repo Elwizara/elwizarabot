@@ -1,0 +1,35 @@
+{
+    "TwitterAppsKeys": [
+        {
+            "Name": "sokkaProject-None",
+            "ConsumerKey": "<<ConsumerKey>>",
+            "ConsumerSecret": "<<ConsumerSecret>>",
+            "AccessToken": "<<AccessToken>>",
+            "AccessTokenSecret": "<<AccessTokenSecret>>",
+            "StreamType": "sample"
+        },
+        {
+            "Name": "new vector test app-None",
+            "ConsumerKey": "<<ConsumerKey>>",
+            "ConsumerSecret": "<<ConsumerSecret>>",
+            "AccessToken": "<<AccessToken>>",
+            "AccessTokenSecret": "<<AccessTokenSecret>>",
+            "StreamType": "location",
+            "StreamArgs": [
+                "-180",
+                "-90",
+                "180",
+                "90"
+            ]
+        }
+    ],
+    "DBConnectionString": "host=127.0.0.1 port=5432 user=tarek password=123 dbname=ElwizaraDEVDB sslmode=disable",
+    "DBName": "Local",
+    "CrawlPageSize": 3,
+    "StopAfter": 0,
+    "IdleConns": 2,
+    "BlockedUsersPath": "BlockedUsers.json",
+    "MinimumRetweetCount": 1000,
+    "MinimumGoldenTweetRate": 100,
+    "LogPath": "logs"
+}

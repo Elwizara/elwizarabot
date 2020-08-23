@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Elwizara</title>
+    <meta name="description" content="Elwizara Best Tweets" />
+    <meta name="keywords" content="Elwizara Best Tweets" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+
+
+
+    <meta name="description" content="Elwizara Best Tweets">
+    <meta name="keywords" content="Elwizara Best Tweets">
+    <meta name="author" content="Elwizara">
+    <meta name="copyright" content="Elwizara.com">
+    <meta name="application-name" content="Elwizara">
+
+
+    <meta property="og:url" content="https://elwizara.com/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Elwizara Best Tweets">
+    <meta property="og:description" content="Elwizara Best Tweets">
+    <meta property="og:image" content="{{ metaservice.metaimage() }}">
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Elwizara Best Tweets">
+    <meta name="twitter:description" content="Elwizara Best Tweets">
+    <meta name="twitter:image" content="{{ metaservice.metaimage() }}">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="Images/logo.jpg">
+</head>
+
+
+<body id="myscope" ng-controller="PageController">
+    <div class="Header shadow" style="position: fixed;">
+        <h1>Elwizara.com</h1>
+    </div>
+    <div class="Header shadow">
+        <h1>Elwizara.com</h1>
+    </div>
+
+    <div class="main-container" ng-show="showMainTweet">
+        <div class="row">
+            <div class="center-element" ng-bind-html="tweet.HTML">
+            </div>
+
+            <!-- <div class="timeline">
+                            <div class="fb-comments" data-href="http://elwizara.com" data-numposts="5"></div>
+                        </div> -->
+
+        </div>
+    </div>
+
+    <div ng-show="tweet.Recommended.length > 0" class="main-container">
+        <h2>Related Tweets</h2>
+        <div ng-repeat="tweet in tweet.Recommended track by $index">
+            <div class="center-element" ng-bind-html="tweet">
+            </div>
+            <div class="center-element">
+                <div ng-bind-html="GetNewAd($index)"></div>
+            </div>
+        </div>
+    </div>
+    <div ng-show="TweetsList.length > 0" class="main-container">
+        <h2 ng-show="seeAlsoLogo">See Also</h2>
+        <div class="seealso" scrolled="loadMore()" lazy-scroll-trigger="100">
+            <div ng-repeat="tweet in TweetsList.slice(0,endToTweet)  track by $index">
+                <div class="center-element" ng-bind-html="tweet">
+                </div>
+                <div class="center-element">
+                    <div ng-bind-html="GetNewAd($index)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="/Images/loading.gif" class="Loader" ng-show="showLoader">
+</body>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script> -->
+<script src="https://code.angularjs.org/1.7.3/angular.min.js"></script>
+
+
+<script src="scripts/CommenHeader.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/CommenFooter.js"></script>
+
+</html>
+
+<!-- docker run --rm -p 9090:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd -->

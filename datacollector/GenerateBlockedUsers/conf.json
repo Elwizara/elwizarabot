@@ -1,0 +1,8 @@
+{
+    "DBName"                :   "Local",
+    "DBConnectionString"    :   "host=127.0.0.1 port=5432 user=tarek password=123 dbname=ElwizaraLIVEDB sslmode=disable",
+    "LogPath"               :   "logs",   
+    "ResultPath"            :   "Result"
+}
+
+ 

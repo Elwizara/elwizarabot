@@ -1,0 +1,26 @@
+{
+    "DBConnectionString"    :   "host=127.0.0.1 port=5432 user=tarek password=123 dbname=ElwizaraDEVDB sslmode=disable", 
+    "DBName"                :   "DEV Local",
+    "GeneratedDataPath"     :   "/home/tarek/Projects/Elwizara/Code/Elwizara/datapublisher/test/frontendhtml",
+    "DumpDirectory"         :   "html_dump",
+    "JSONDirectory"         :   "Data",
+    "CollectionFileName"    :   "tweets.json",
+    "LanguageRatePath"      :   "englishonly.json",
+    "DurationBetweenLangs"  :   1,
+    "LogPath"               :   "logs", 
+    "ScrapySplash"          :   "localhost:8050",                   
+    "DumpPagesURL"          :   "http://localhost:9091", 
+    "CommitScriptPath"      :   "bash/githubcommiter.sh",
+    "CommitDuration"        :   1,                  
+    "ElwizaraPostURL"       :   "https://elwizara.com/?lang=%s&year=%d&month=%d&id=%d",
+    "ElwizaraImageURL"      :   "https://elwizara.com/Data/%s/%d/%d/%d.png",
+    "AllowShortURL"         :   false,
+    "ElwizaraShortURL"      :   "http://elwz.me/?%v", 
+    "Template"              :   {
+                                    "Version"   :"Beta.1",
+                                    "Path"      :"template.html",
+                                    "DumpPath"  :"dump.html"
+                                }                            
+}
+
+ 

@@ -1,0 +1,12 @@
+[
+    {
+        "Lang": "en",
+        "Duration": 2,
+        "MinimumRate": 1500
+    },
+    {
+        "Lang": "ja",
+        "Duration": 80,
+        "MinimumRate": 1500
+    }
+]

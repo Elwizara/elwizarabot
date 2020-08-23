@@ -1,0 +1,8 @@
+{
+    "DBUSER"                    : "tarek",
+    "DBPASSWORD"                : "123",
+    "DBNAME"                    : "ElwizaraDEVDB",
+    "DBHost"                    : "127.0.0.1",
+    "DBPort"                    : "5432",
+    "CrawlerMonitorURL"         : "https://127.0.0.1:5051"
+}

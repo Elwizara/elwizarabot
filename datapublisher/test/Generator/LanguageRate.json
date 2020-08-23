@@ -1,0 +1,358 @@
+[
+    {
+        "Lang": "en",
+        "Duration": 60,
+        "MinimumRate": 1500
+    },
+    {
+        "Lang": "ja",
+        "Duration": 80,
+        "MinimumRate": 1500
+    },
+    {
+        "Lang": "ko",
+        "Duration": 120,
+        "MinimumRate": 1400
+    },
+    {
+        "Lang": "es",
+        "Duration": 180,
+        "MinimumRate": 1300
+    },
+    {
+        "Lang": "th",
+        "Duration": 180,
+        "MinimumRate": 1300
+    },
+    {
+        "Lang": "pt",
+        "Duration": 180,
+        "MinimumRate": 1300
+    },
+    {
+        "Lang": "fr",
+        "Duration": 360,
+        "MinimumRate": 1100
+    },
+    {
+        "Lang": "in",
+        "Duration": 360,
+        "MinimumRate": 1100
+    },
+
+    {
+        "Lang": "und",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ar",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "tr",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "tl",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "it",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ru",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "hi",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ur",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "de",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "nl",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "fa",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ca",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "pl",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ht",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "sv",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "et",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ta",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "el",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "zh",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "fi",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "vi",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "no",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "uk",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "eu",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "da",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ne",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "cs",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "lv",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "cy",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ro",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ps",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "lt",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "bn",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "hu",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "sl",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "mr",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "is",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "sr",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "te",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "my",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "iw",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ml",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "bg",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "kn",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "gu",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "pa",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "lo",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "hy",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ckb",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "sd",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "am",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "or",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "km",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ka",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "si",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "bo",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "dv",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ms",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "hr",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "bs",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "sk",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "id",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    },
+    {
+        "Lang": "ug",
+        "Duration": 1440,
+        "MinimumRate": 1000
+    }
+]

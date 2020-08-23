@@ -1,0 +1,24 @@
+
+#get details
+GET https://api.pinterest.com/v1/me/pins/?access_token=TOKEN&fields=id,creator,note&limit=1
+
+
+###
+#create pin 
+POST https://api.pinterest.com/v1/pins/?board=elwizaracom/best&note=hi&image_url=https://elwizara.com/Data/en/2018/9/1036666878717059072.png&access_token=TOKEN
+
+###
+POST http://www.reddit.com/api/submit
+
+{
+    "title":"HI",
+    "url":"http://github.com/reddit/reddit",
+    "sr":"",
+    "kind":"link",
+}
+
+
+###
+POST https://graph.facebook.com/181841378681657/feed?message=HIAlllocal&access_token=TOKEN
+
+

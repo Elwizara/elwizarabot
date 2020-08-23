@@ -1,0 +1,10 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+*.farting
+logs
+pagegenerator/pagegenerator 
+.vscode 
+__pycache__
+*.png
+/test/frontendhtml/Data
+/test/frontendhtml/html_dump
+/test/Generator/testpage

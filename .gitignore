@@ -13,3 +13,17 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+
+# Add any directories, files, or patterns you don't want to be tracked by version control
+logs
+StreamTwitter/StreamTwitter
+GenerateBlockedUsers/GenerateBlockedUsers
+SqlReader/SqlReader
+SqlTablsLoop/SqlTablsLoop
+datacollector/GenerateBlockedUsers/GenerateBlockedUsers
+datacollector/SqlReader/SqlReader
+datacollector/SqlTablsLoop/SqlTablsLoop
+datacollector/StreamTwitter/StreamTwitter
+
+Data

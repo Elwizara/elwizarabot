@@ -1,0 +1,68 @@
+name: scrapy36
+channels:
+- anaconda
+- conda-forge
+- defaults
+dependencies:
+- krb5=1.16=h3f6afd0_6
+- libpq=10.3=h1ad7b7a_0
+- psycopg2=2.7.4=py36hb7f436b_0
+- appdirs=1.4.3=py_0
+- asn1crypto=0.24.0=py36_0
+- attrs=18.1.0=py_0
+- automat=0.6.0=py36_0
+- cffi=1.11.5=py36_0
+- constantly=15.1.0=py_0
+- cryptography=2.2.1=py36_0
+- cssselect=1.0.3=py_0
+- hyperlink=17.3.1=py_0
+- icu=58.2=0
+- idna=2.6=py36_1
+- incremental=17.5.0=py_0
+- libiconv=1.15=0
+- libxml2=2.9.8=0
+- libxslt=1.1.32=0
+- lxml=4.2.1=py36_0
+- more-itertools=4.1.0=py_0
+- pluggy=0.6.0=py_0
+- py=1.5.3=py_0
+- pyasn1=0.4.2=py_0
+- pyasn1-modules=0.2.1=py_0
+- pycparser=2.18=py36_0
+- pydispatcher=2.0.5=py36_0
+- pyopenssl=17.5.0=py36_1
+- pytest=3.5.1=py36_0
+- pytest-runner=4.2=py_0
+- scrapy=1.5.0=py36_0
+- six=1.11.0=py36_1
+- ca-certificates=2018.03.07=0
+- certifi=2018.4.16=py36_0
+- libedit=3.1.20170329=h6b74fdf_2
+- libffi=3.2.1=hd88cf55_4
+- libgcc-ng=7.2.0=hdf63c60_3
+- libstdcxx-ng=7.2.0=hdf63c60_3
+- ncurses=6.1=hf484d3e_0
+- openssl=1.0.2o=h20670df_0
+- parsel=1.4.0=py36_0
+- pip=10.0.1=py36_0
+- pysocks=1.6.8=py36_0
+- python=3.6.5=hc3d631a_2
+- queuelib=1.5.0=py36_0
+- readline=7.0=ha6073c6_4
+- service_identity=17.0.0=py36_0
+- setuptools=39.1.0=py36_0
+- sqlite=3.23.1=he433501_0
+- tk=8.6.7=hc745277_3
+- twisted=18.4.0=py36h14c3975_0
+- urllib3=1.22=py36hbe7ace6_0
+- w3lib=1.19.0=py36_0
+- wheel=0.31.1=py36_0
+- xz=5.2.3=h5e939de_4
+- zlib=1.2.11=ha838bed_2
+- zope=1.0=py36_0
+- zope.interface=4.5.0=py36h14c3975_0
+- pip:
+  - psycopg2-binary==2.7.4
+  - scrapy-splash==0.7.2
+  - service-identity==17.0.0 
+

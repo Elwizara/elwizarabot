@@ -1,0 +1,36 @@
+{
+    "DBSources": [
+        {
+            "Name": "mochahost",
+            "ConnectionString": "host=IP port=5432 user=elwizara password=pass dbname=ElwizaraLIVEDB",
+            "DownloadDuration": 120,
+            "DownloadLimit": 100000,
+            "MinimumNeedToCrawlCount": 0,
+            "PageNeedToCrawlCount": 0
+        }
+    ],
+    "DBDestination": {
+        "Name": "Local",
+        "DatabaseEngine": "Postgres",
+        "ConnectionString": "host=127.0.0.1 port=5432 user=tarek password=123 dbname=ElwizaraLIVEDB sslmode=disable",
+        "Tables": [
+            {
+                "Name": "UsersProfilesTB",
+                "ScriptPath": "./PostgresSQL/InsertUsersProfilesTB3.sh"
+            },
+            {
+                "Name": "TweetsTB",
+                "ScriptPath": "./PostgresSQL/InsertTweetsTB5.sh"
+            },
+            {
+                "Name": "UsersRateTB",
+                "ScriptPath": "./PostgresSQL/InsertUsersRateTB.sh"
+            },
+            {
+                "Name": "GoldenTweetsTB",
+                "ScriptPath": "./PostgresSQL/InsertGoldenTweetsTB.sh"
+            }
+        ]
+    },
+    "LogPath": "logs"
+}
